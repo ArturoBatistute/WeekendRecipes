@@ -1,0 +1,623 @@
+{
+    "recipes": [
+        {
+            "vegetarian": true,
+            "vegan": false,
+            "glutenFree": false,
+            "dairyFree": true,
+            "veryHealthy": false,
+            "cheap": false,
+            "veryPopular": false,
+            "sustainable": false,
+            "lowFodmap": false,
+            "weightWatcherSmartPoints": 8,
+            "gaps": "no",
+            "preparationMinutes": -1,
+            "cookingMinutes": -1,
+            "aggregateLikes": 15,
+            "healthScore": 3,
+            "creditsText": "Foodista.com – The Cooking Encyclopedia Everyone Can Edit",
+            "license": "CC BY 3.0",
+            "sourceName": "Foodista",
+            "pricePerServing": 60.72,
+            "extendedIngredients": [
+                {
+                    "id": 9307,
+                    "aisle": "Produce",
+                    "image": "rhubarb.jpg",
+                    "consistency": "SOLID",
+                    "name": "rhubarb",
+                    "nameClean": "rhubarb",
+                    "original": "21 ounces (600 g) rhubarb, peeled and cubed",
+                    "originalName": "21 ounces rhubarb, peeled and cubed",
+                    "amount": 600.0,
+                    "unit": "g",
+                    "meta": [
+                        "cubed",
+                        "peeled"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1.323,
+                            "unitShort": "lb",
+                            "unitLong": "pounds"
+                        },
+                        "metric": {
+                            "amount": 600.0,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 19335,
+                    "aisle": "Baking",
+                    "image": "sugar-in-bowl.png",
+                    "consistency": "SOLID",
+                    "name": "sugar",
+                    "nameClean": "sugar",
+                    "original": "2 Tablespoons sugar",
+                    "originalName": "sugar",
+                    "amount": 2.0,
+                    "unit": "Tablespoons",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2.0,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        },
+                        "metric": {
+                            "amount": 2.0,
+                            "unitShort": "Tbsps",
+                            "unitLong": "Tbsps"
+                        }
+                    }
+                },
+                {
+                    "id": 19335,
+                    "aisle": "Baking",
+                    "image": "sugar-in-bowl.png",
+                    "consistency": "SOLID",
+                    "name": "sugar",
+                    "nameClean": "sugar",
+                    "original": "2/3 cup (130 g) sugar",
+                    "originalName": "2/3 cup sugar",
+                    "amount": 130.0,
+                    "unit": "g",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 4.586,
+                            "unitShort": "oz",
+                            "unitLong": "ounces"
+                        },
+                        "metric": {
+                            "amount": 130.0,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 2050,
+                    "aisle": "Baking",
+                    "image": "vanilla-extract.jpg",
+                    "consistency": "LIQUID",
+                    "name": "vanilla extract",
+                    "nameClean": "vanilla extract",
+                    "original": "1 teaspoon (5 ml) vanilla extract",
+                    "originalName": "teaspoon vanilla extract",
+                    "amount": 5.0,
+                    "unit": "ml",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.169,
+                            "unitShort": "fl. oz",
+                            "unitLong": "fl. ozs"
+                        },
+                        "metric": {
+                            "amount": 5.0,
+                            "unitShort": "ml",
+                            "unitLong": "milliliters"
+                        }
+                    }
+                },
+                {
+                    "id": 2047,
+                    "aisle": "Spices and Seasonings",
+                    "image": "salt.jpg",
+                    "consistency": "SOLID",
+                    "name": "salt",
+                    "nameClean": "table salt",
+                    "original": "1/8 teaspoon salt",
+                    "originalName": "salt",
+                    "amount": 0.125,
+                    "unit": "teaspoon",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 0.125,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 0.125,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 1123,
+                    "aisle": "Milk, Eggs, Other Dairy",
+                    "image": "egg.png",
+                    "consistency": "SOLID",
+                    "name": "eggs",
+                    "nameClean": "egg",
+                    "original": "2 large eggs",
+                    "originalName": "eggs",
+                    "amount": 2.0,
+                    "unit": "large",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2.0,
+                            "unitShort": "large",
+                            "unitLong": "larges"
+                        },
+                        "metric": {
+                            "amount": 2.0,
+                            "unitShort": "large",
+                            "unitLong": "larges"
+                        }
+                    }
+                },
+                {
+                    "id": 20081,
+                    "aisle": "Baking",
+                    "image": "flour.png",
+                    "consistency": "SOLID",
+                    "name": "flour",
+                    "nameClean": "wheat flour",
+                    "original": "1 1/4 cup (150 g) flour",
+                    "originalName": "1/4 cup flour",
+                    "amount": 150.0,
+                    "unit": "g",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 5.291,
+                            "unitShort": "oz",
+                            "unitLong": "ounces"
+                        },
+                        "metric": {
+                            "amount": 150.0,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 12061,
+                    "aisle": "Nuts",
+                    "image": "almonds.jpg",
+                    "consistency": "SOLID",
+                    "name": "almonds",
+                    "nameClean": "almonds",
+                    "original": "1 3/4 ounces (50 g) roasted almonds, ground",
+                    "originalName": "3/4 ounces roasted almonds, ground",
+                    "amount": 50.0,
+                    "unit": "g",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 1.764,
+                            "unitShort": "oz",
+                            "unitLong": "ounces"
+                        },
+                        "metric": {
+                            "amount": 50.0,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 18371,
+                    "aisle": "Baking",
+                    "image": "white-powder.jpg",
+                    "consistency": "SOLID",
+                    "name": "baking powder",
+                    "nameClean": "low sodium baking powder",
+                    "original": "2 teaspoons baking powder",
+                    "originalName": "baking powder",
+                    "amount": 2.0,
+                    "unit": "teaspoons",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 2.0,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        },
+                        "metric": {
+                            "amount": 2.0,
+                            "unitShort": "tsps",
+                            "unitLong": "teaspoons"
+                        }
+                    }
+                },
+                {
+                    "id": 1124,
+                    "aisle": "Milk, Eggs, Other Dairy",
+                    "image": "egg-white.jpg",
+                    "consistency": "SOLID",
+                    "name": "egg whites",
+                    "nameClean": "egg whites",
+                    "original": "3 egg whites",
+                    "originalName": "egg whites",
+                    "amount": 3.0,
+                    "unit": "",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 3.0,
+                            "unitShort": "",
+                            "unitLong": ""
+                        },
+                        "metric": {
+                            "amount": 3.0,
+                            "unitShort": "",
+                            "unitLong": ""
+                        }
+                    }
+                },
+                {
+                    "id": 19335,
+                    "aisle": "Baking",
+                    "image": "sugar-in-bowl.png",
+                    "consistency": "SOLID",
+                    "name": "sugar",
+                    "nameClean": "sugar",
+                    "original": "3/4 cup (150 g) sugar",
+                    "originalName": "3/4 cup sugar",
+                    "amount": 150.0,
+                    "unit": "g",
+                    "meta": [],
+                    "measures": {
+                        "us": {
+                            "amount": 5.291,
+                            "unitShort": "oz",
+                            "unitLong": "ounces"
+                        },
+                        "metric": {
+                            "amount": 150.0,
+                            "unitShort": "g",
+                            "unitLong": "grams"
+                        }
+                    }
+                },
+                {
+                    "id": 12061,
+                    "aisle": "Nuts",
+                    "image": "almonds.jpg",
+                    "consistency": "SOLID",
+                    "name": "almonds",
+                    "nameClean": "almonds",
+                    "original": "sliced almonds for topping",
+                    "originalName": "sliced almonds for topping",
+                    "amount": 1.0,
+                    "unit": "serving",
+                    "meta": [
+                        "sliced",
+                        "for topping"
+                    ],
+                    "measures": {
+                        "us": {
+                            "amount": 1.0,
+                            "unitShort": "serving",
+                            "unitLong": "serving"
+                        },
+                        "metric": {
+                            "amount": 1.0,
+                            "unitShort": "serving",
+                            "unitLong": "serving"
+                        }
+                    }
+                }
+            ],
+            "id": 644488,
+            "title": "German Rhubarb Cake with Meringue",
+            "readyInMinutes": 45,
+            "servings": 12,
+            "sourceUrl": "https://www.foodista.com/recipe/68PX6QXK/german-rhubarb-cake-with-meringue",
+            "openLicense": -1,
+            "image": "https://spoonacular.com/recipeImages/644488-556x370.jpg",
+            "imageType": "jpg",
+            "summary": "The recipe German Rhubarb Cake with Meringue could satisfy your European craving in around <b>around 45 minutes</b>. For <b>61 cents per serving</b>, you get a dessert that serves 12. One portion of this dish contains approximately <b>5g of protein</b>, <b>4g of fat</b>, and a total of <b>212 calories</b>. 15 people were glad they tried this recipe. A mixture of rhubarb, sugar, eggs, and a handful of other ingredients are all it takes to make this recipe so tasty. It is brought to you by Foodista. It will be a hit at your <b>Mother's Day</b> event. It is a good option if you're following a <b>dairy free and lacto ovo vegetarian</b> diet. With a spoonacular <b>score of 33%</b>, this dish is rather bad. Try <a href=\"https://spoonacular.com/recipes/rhubarb-meringue-cake-381275\">Rhubarb Meringue Cake</a>, <a href=\"https://spoonacular.com/recipes/rhubarb-meringue-pie-134891\">Rhubarb Meringue Pie</a>, and <a href=\"https://spoonacular.com/recipes/rhubarb-meringue-pie-387893\">Rhubarb Meringue Pie</a> for similar recipes.",
+            "cuisines": [
+                "German",
+                "European"
+            ],
+            "dishTypes": [
+                "dessert"
+            ],
+            "diets": [
+                "dairy free",
+                "lacto ovo vegetarian"
+            ],
+            "occasions": [
+                "spring",
+                "mother's day"
+            ],
+            "instructions": "Preheat the oven to 350F Convection. Grease a round 26 cm Spring pan (9 1/2 inch).\nWash, dry and peel the rhubarb. Cut it in little pieces, mix with 2 tablespoon of sugar and let sit for at least 1/2 hour. It will extract a lot of water that needs to be drained. Pat rhubarb dry for further use.\nIn a kitchen machine beat together butter, sugar and vanilla extract until the butter is fluffy and the sugar is dissolved. Put in the eggs, one at a time and mix well.\nIn a separate bowl sift together flour, ground almonds, salt and baking powder, add slowly to the egg mixture. Dont over mix.\nFill dough into the spring pan, top with dried rhubarb and bake for 25 min.\nIn the mean time prepare the meringue/ baiser topping. Beat egg whites until stiff peaks form. Slowly add the sugar until meringue is firm and shiny.\nSpread the meringue evenly over the rhubarb and decorate with almond slices. Return to the oven for another 15 min. Cover the cake with aluminum foil after 5 min. in case the meringue does turn too dark.\nCool completely before removing the cake from the pan.",
+            "analyzedInstructions": [
+                {
+                    "name": "",
+                    "steps": [
+                        {
+                            "number": 1,
+                            "step": "Preheat the oven to 350F Convection. Grease a round 26 cm Spring pan (9 1/2 inch).",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg",
+                                    "temperature": {
+                                        "number": 350.0,
+                                        "unit": "Fahrenheit"
+                                    }
+                                },
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "localizedName": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 2,
+                            "step": "Wash, dry and peel the rhubarb.",
+                            "ingredients": [
+                                {
+                                    "id": 9307,
+                                    "name": "rhubarb",
+                                    "localizedName": "rhubarb",
+                                    "image": "rhubarb.jpg"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 3,
+                            "step": "Cut it in little pieces, mix with 2 tablespoon of sugar and let sit for at least 1/2 hour. It will extract a lot of water that needs to be drained. Pat rhubarb dry for further use.",
+                            "ingredients": [
+                                {
+                                    "id": 0,
+                                    "name": "extract",
+                                    "localizedName": "extract",
+                                    "image": ""
+                                },
+                                {
+                                    "id": 9307,
+                                    "name": "rhubarb",
+                                    "localizedName": "rhubarb",
+                                    "image": "rhubarb.jpg"
+                                },
+                                {
+                                    "id": 19335,
+                                    "name": "sugar",
+                                    "localizedName": "sugar",
+                                    "image": "sugar-in-bowl.png"
+                                },
+                                {
+                                    "id": 14412,
+                                    "name": "water",
+                                    "localizedName": "water",
+                                    "image": "water.png"
+                                }
+                            ],
+                            "equipment": [],
+                            "length": {
+                                "number": 120,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 4,
+                            "step": "In a kitchen machine beat together butter, sugar and vanilla extract until the butter is fluffy and the sugar is dissolved. Put in the eggs, one at a time and mix well.",
+                            "ingredients": [
+                                {
+                                    "id": 2050,
+                                    "name": "vanilla extract",
+                                    "localizedName": "vanilla extract",
+                                    "image": "vanilla-extract.jpg"
+                                },
+                                {
+                                    "id": 1001,
+                                    "name": "butter",
+                                    "localizedName": "butter",
+                                    "image": "butter-sliced.jpg"
+                                },
+                                {
+                                    "id": 19335,
+                                    "name": "sugar",
+                                    "localizedName": "sugar",
+                                    "image": "sugar-in-bowl.png"
+                                },
+                                {
+                                    "id": 1123,
+                                    "name": "egg",
+                                    "localizedName": "egg",
+                                    "image": "egg.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 5,
+                            "step": "In a separate bowl sift together flour, ground almonds, salt and baking powder, add slowly to the egg mixture. Dont over mix.",
+                            "ingredients": [
+                                {
+                                    "id": 93740,
+                                    "name": "almond meal",
+                                    "localizedName": "almond meal",
+                                    "image": "almond-meal-or-almond-flour.jpg"
+                                },
+                                {
+                                    "id": 18369,
+                                    "name": "baking powder",
+                                    "localizedName": "baking powder",
+                                    "image": "white-powder.jpg"
+                                },
+                                {
+                                    "id": 20081,
+                                    "name": "all purpose flour",
+                                    "localizedName": "all purpose flour",
+                                    "image": "flour.png"
+                                },
+                                {
+                                    "id": 2047,
+                                    "name": "salt",
+                                    "localizedName": "salt",
+                                    "image": "salt.jpg"
+                                },
+                                {
+                                    "id": 1123,
+                                    "name": "egg",
+                                    "localizedName": "egg",
+                                    "image": "egg.png"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404783,
+                                    "name": "bowl",
+                                    "localizedName": "bowl",
+                                    "image": "bowl.jpg"
+                                }
+                            ]
+                        },
+                        {
+                            "number": 6,
+                            "step": "Fill dough into the spring pan, top with dried rhubarb and bake for 25 min.",
+                            "ingredients": [
+                                {
+                                    "id": 9307,
+                                    "name": "rhubarb",
+                                    "localizedName": "rhubarb",
+                                    "image": "rhubarb.jpg"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "dough",
+                                    "localizedName": "dough",
+                                    "image": "pizza-dough"
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                },
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "localizedName": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ],
+                            "length": {
+                                "number": 25,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 7,
+                            "step": "In the mean time prepare the meringue/ baiser topping. Beat egg whites until stiff peaks form. Slowly add the sugar until meringue is firm and shiny.",
+                            "ingredients": [
+                                {
+                                    "id": 1124,
+                                    "name": "egg whites",
+                                    "localizedName": "egg whites",
+                                    "image": "egg-white.jpg"
+                                },
+                                {
+                                    "id": 19335,
+                                    "name": "sugar",
+                                    "localizedName": "sugar",
+                                    "image": "sugar-in-bowl.png"
+                                }
+                            ],
+                            "equipment": []
+                        },
+                        {
+                            "number": 8,
+                            "step": "Spread the meringue evenly over the rhubarb and decorate with almond slices. Return to the oven for another 15 min. Cover the cake with aluminum foil after 5 min. in case the meringue does turn too dark.",
+                            "ingredients": [
+                                {
+                                    "id": 10112061,
+                                    "name": "sliced almonds",
+                                    "localizedName": "sliced almonds",
+                                    "image": "almonds.jpg"
+                                },
+                                {
+                                    "id": 9307,
+                                    "name": "rhubarb",
+                                    "localizedName": "rhubarb",
+                                    "image": "rhubarb.jpg"
+                                },
+                                {
+                                    "id": 0,
+                                    "name": "spread",
+                                    "localizedName": "spread",
+                                    "image": ""
+                                }
+                            ],
+                            "equipment": [
+                                {
+                                    "id": 404765,
+                                    "name": "aluminum foil",
+                                    "localizedName": "aluminum foil",
+                                    "image": "aluminum-foil.png"
+                                },
+                                {
+                                    "id": 404784,
+                                    "name": "oven",
+                                    "localizedName": "oven",
+                                    "image": "oven.jpg"
+                                }
+                            ],
+                            "length": {
+                                "number": 20,
+                                "unit": "minutes"
+                            }
+                        },
+                        {
+                            "number": 9,
+                            "step": "Cool completely before removing the cake from the pan.",
+                            "ingredients": [],
+                            "equipment": [
+                                {
+                                    "id": 404645,
+                                    "name": "frying pan",
+                                    "localizedName": "frying pan",
+                                    "image": "pan.png"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "originalId": null,
+            "spoonacularSourceUrl": "https://spoonacular.com/german-rhubarb-cake-with-meringue-644488"
+        }
+    ]
+}
