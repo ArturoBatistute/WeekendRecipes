@@ -1,5 +1,6 @@
 package com.woods.customers.entities;
 
+import java.util.LinkedHashSet;
 import java.util.Objects;
 
 import javax.persistence.Entity;
@@ -27,14 +28,18 @@ public class Customer {
 	@NotNull
 	private String password;
 
+	private LinkedHashSet<String> recipesUrl;
+
 	public Customer() {}
 
-	public Customer(Long id, String name, String email, String password) {
+	public Customer(Long userId, @NotNull String name, @NotNull String email, @NotNull String password,
+			LinkedHashSet<String> recipeUrl) {
 		super();
-		userId = id;
+		this.userId = userId;
 		this.name = name;
 		this.email = email;
 		this.password = password;
+		this.recipesUrl = recipeUrl;
 	}
 
 	public String getName() {
@@ -61,13 +66,21 @@ public class Customer {
 		this.password = password;
 	}
 
-	public Long getId() {
+	public LinkedHashSet<String> getRecipeUrl() {
+		return recipesUrl;
+	}
+
+	public void setRecipeUrl(LinkedHashSet<String> recipeUrl) {
+		this.recipesUrl = recipeUrl;
+	}
+
+	public Long getUserId() {
 		return userId;
 	}
 
 	@Override
 	public int hashCode() {
-		return Objects.hash(userId, email, name, password);
+		return Objects.hash(email, name, password, recipesUrl, userId);
 	}
 
 	@Override
@@ -79,12 +92,14 @@ public class Customer {
 		if (getClass() != obj.getClass())
 			return false;
 		final Customer other = (Customer) obj;
-		return Objects.equals(userId, other.userId) && Objects.equals(email, other.email) && Objects.equals(name, other.name)
-				&& Objects.equals(password, other.password);
+		return Objects.equals(email, other.email) && Objects.equals(name, other.name)
+				&& Objects.equals(password, other.password) && Objects.equals(recipesUrl, other.recipesUrl)
+				&& Objects.equals(userId, other.userId);
 	}
 
 	@Override
 	public String toString() {
-		return "User [Id=" + userId + ", name=" + name + ", email=" + email + ", password=" + password + "]";
-	};
+		return "Customer [userId=" + userId + ", name=" + name + ", email=" + email + ", password=" + password
+				+ ", recipeUrl=" + recipesUrl + "]";
+	}
 }
